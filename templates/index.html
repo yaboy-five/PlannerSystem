@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="home">
+    <h1>Activity Manager</h1>
+    <p>
+        Manage users and activities
+    </p>
+    <div class="home-buttons">
+        <a class="button" href="{{ url_for('add_user')}}"> Add User </a>
+        <a class="button" href="{{ url_for('add_activity') }}"> Add Activity </a>
+        <a class="button" href="{{ url_for('activities') }}"> View Activities </a>
+        <a class="button" href="{{ url_for('report') }}"> View Report </a>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: #333;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* MAIN */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+
+/* HOME */
+
+.home {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.home h1 {
+    font-size: 40px;
+}
+
+.home-buttons {
+    margin-top: 30px;
+}
+
+
+/* BUTTONS */
+
+.button,
+button {
+    display: inline-block;
+
+    background-color: #333;
+    color: white;
+
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 4px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #555;
+}
+
+
+/* FORMS */
+
+form {
+    background-color: white;
+
+    padding: 25px;
+
+    max-width: 500px;
+
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/* REPORT */
+
+.report {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.report-box {
+    background-color: white;
+
+    padding: 25px;
+
+    width: 200px;
+
+    text-align: center;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.report-box h2 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.report-box p {
+    margin-bottom: 0;
+}
